@@ -1,0 +1,22 @@
+{
+  "name": "timaverkefni",
+  "version": "1.0.0",
+  "description": "Hello world",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrefnanamfa/hugb_v08.git"
+  },
+  "author": "Hrefna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrefnanamfa/hugb_v08/issues"
+  },
+  "homepage": "https://github.com/hrefnanamfa/hugb_v08#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

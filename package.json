@@ -4,7 +4,10 @@
   "description": "Hello world",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watchAll",
+    "clean": "rm -rf node_modules",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,8 @@
   },
   "homepage": "https://github.com/hrefnanamfa/hugb_v08#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "express": "^4.16.3",
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
   }
 }
